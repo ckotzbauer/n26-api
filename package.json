@@ -1,0 +1,31 @@
+{
+  "name": "n26-api",
+  "version": "0.1.0",
+  "description": "Just another n26 api-client.",
+  "main": "dist/N26.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "keywords": [
+    "n26",
+    "banking",
+    "api"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": {
+    "name": "Christian Kotzbauer",
+    "email": "christian.kotzbauer@gmail.com",
+    "twitter": "ckotzbauer1"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/code-chris/n26-api",
+  "dependencies": {
+    "axios": "~0.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "~10.12.18",
+    "typescript": "~3.2.2"
+  }
+}
