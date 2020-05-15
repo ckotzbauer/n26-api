@@ -43,5 +43,5 @@ api.authenticate()
 ```
 
 
-[License](https://github.com/code-chris/n26-api/blob/master/LICENSE)
+[License](https://github.com/ckotzbauer/n26-api/blob/master/LICENSE)
 ------
