@@ -5,5 +5,8 @@
   ],
   "labels": [
     "dependencies"
+  ],
+  "reviewers": [
+    "ckotzbauer"
   ]
 }
