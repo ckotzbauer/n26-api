@@ -1,5 +1,6 @@
 # N26 API
 
+![build](https://github.com/ckotzbauer/n26-api/workflows/build/badge.svg)
 [![NPM](https://img.shields.io/npm/v/n26-api.svg)](https://www.npmjs.com/package/n26-api)
 
 
