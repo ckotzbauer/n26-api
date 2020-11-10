@@ -1,5 +1,12 @@
 # Changelog
 
+## Version 0.1.2
+
+Released on November 10, 2020.
+
+-   Dependency updates.
+
+
 ## Version 0.1.1
 
 Released on July 4, 2020.
