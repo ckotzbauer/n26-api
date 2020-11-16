@@ -1,5 +1,13 @@
 # Changelog
 
+
+## Version 0.1.3
+
+Released on November 16, 2020.
+
+-   Fix broken release 0.1.2
+
+
 ## Version 0.1.2
 
 Released on November 10, 2020.
