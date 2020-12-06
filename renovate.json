@@ -6,7 +6,28 @@
   "labels": [
     "kind/dependencies"
   ],
-  "reviewers": [
-    "ckotzbauer"
+  "packageRules": [
+    {
+      "updateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
+      "addLabels": [
+        "approved"
+      ]
+    },
+    {
+      "updateTypes": [
+        "major",
+        "lockFileMaintenance",
+        "rollback",
+        "bump"
+      ],
+      "reviewers": [
+        "ckotzbauer"
+      ]
+    }
   ]
 }
