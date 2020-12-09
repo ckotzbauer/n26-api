@@ -1,6 +1,6 @@
 {
   "name": "n26-api",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Just another n26 api-client.",
   "main": "dist/N26.js",
   "scripts": {

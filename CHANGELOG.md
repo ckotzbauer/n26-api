@@ -1,3 +1,12 @@
+## Version 0.1.4 (2020-12-09)
+
+* [[`3e946d06`](https://github.com/ckotzbauer&#x2F;n26-api/commit/3e946d06)] - **chore**: fix release-workflow
+* [[`691ba40b`](https://github.com/ckotzbauer&#x2F;n26-api/commit/691ba40b)] - **chore**: improve automation
+* [[`67a76e63`](https://github.com/ckotzbauer&#x2F;n26-api/commit/67a76e63)] - **chore**: Update dependency @types&#x2F;node to v10.17.48
+* [[`e0925a30`](https://github.com/ckotzbauer&#x2F;n26-api/commit/e0925a30)] - **chore**: Update dependency @types&#x2F;node to v10.17.47
+* [[`8de79e45`](https://github.com/ckotzbauer&#x2F;n26-api/commit/8de79e45)] - **chore**: Update dependency @types&#x2F;node to v10.17.46
+* [[`546e8499`](https://github.com/ckotzbauer&#x2F;n26-api/commit/546e8499)] - **chore**: Update dependency typescript to v4.1.2
+* [[`4869bc67`](https://github.com/ckotzbauer&#x2F;n26-api/commit/4869bc67)] - **chore**: Update dependency @types&#x2F;node to v10.17.45
 # Changelog
 
 
