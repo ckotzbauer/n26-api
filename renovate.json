@@ -6,6 +6,9 @@
   "labels": [
     "kind/dependencies"
   ],
+  "schedule": [
+    "every weekend"
+  ],
   "packageRules": [
     {
       "updateTypes": [
