@@ -2,6 +2,7 @@
 
 ![build](https://github.com/ckotzbauer/n26-api/workflows/build/badge.svg)
 [![NPM](https://img.shields.io/npm/v/n26-api.svg)](https://www.npmjs.com/package/n26-api)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fckotzbauer%2Fn26-api.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fckotzbauer%2Fn26-api?ref=badge_shield)
 
 
 Just another api-client for the [N26](https://n26.com) Bank.
@@ -46,3 +47,7 @@ api.authenticate()
 
 [License](https://github.com/ckotzbauer/n26-api/blob/master/LICENSE)
 ------
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fckotzbauer%2Fn26-api.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fckotzbauer%2Fn26-api?ref=badge_large)
