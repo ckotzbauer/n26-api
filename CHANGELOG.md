@@ -1,3 +1,6 @@
+## Version 0.1.7 (2021-02-01)
+
+
 ## Version 0.1.4 (2020-12-09)
 
 * [[`3e946d06`](https://github.com/ckotzbauer&#x2F;n26-api/commit/3e946d06)] - **chore**: fix release-workflow
