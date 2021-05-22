@@ -1,6 +1,6 @@
 
 import axios, { AxiosResponse, AxiosRequestConfig } from "axios";
-import { stringify } from "querystring";
+import { ParsedUrlQueryInput, stringify } from "querystring";
 import { Balance } from "./contracts/Balance";
 import { Token } from "./contracts/Token";
 import { PersonalInfo } from "./contracts/PersonalInfo";
@@ -26,7 +26,7 @@ export class N26 {
     }
 
     public async authenticate(): Promise<void> {
-        const data: object = {
+        const data: ParsedUrlQueryInput = {
             grant_type: "password",
             username: this.userName,
             password: this.password
@@ -39,7 +39,7 @@ export class N26 {
         this.currentToken = { accessToken: response.data.access_token, refreshToken: response.data.refresh_token };
     }
 
-    private async get<T>(url: string, params?: object, opts?: AxiosRequestConfig): Promise<T> {
+    private async get<T>(url: string, params?: ParsedUrlQueryInput, opts?: AxiosRequestConfig): Promise<T> {
         const response = await axios.get(`${N26.apiUrl}${url}?${stringify(params)}`, { 
             headers: { "Authorization": `Bearer ${this.currentToken.accessToken}` }, 
             ...opts 
@@ -76,7 +76,7 @@ export class N26 {
     }
 
     public async getTransactions(from: Date, to: Date, limit: string): Promise<Transaction[]> {
-        const params: object = {
+        const params: ParsedUrlQueryInput = {
             limit: limit,
             from: from.getTime().toString(),
             to: to.getTime().toString()
