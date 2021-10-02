@@ -33,15 +33,15 @@ export class N26 {
         };
 
         const cred: string = Buffer.from(`${N26.clientId}:${N26.clientSecret}`).toString("base64");
-        const headers: object = { "Authorization": `Basic ${cred}`, "Content-type": "application/x-www-form-urlencoded" };
+        const headers: Record<string, string> = { "Authorization": `Basic ${cred}`, "Content-type": "application/x-www-form-urlencoded" };
 
-        const response: AxiosResponse = await axios.post(`${N26.apiUrl}/oauth/token`, stringify(data), { headers });
-        this.currentToken = { accessToken: response.data.access_token, refreshToken: response.data.refresh_token };
+        const response: AxiosResponse<Token> = await axios.post<string, AxiosResponse<Token>>(`${N26.apiUrl}/oauth/token`, stringify(data), { headers });
+        this.currentToken = { access_token: response.data.access_token, refresh_token: response.data.refresh_token };
     }
 
     private async get<T>(url: string, params?: ParsedUrlQueryInput, opts?: AxiosRequestConfig): Promise<T> {
         const response = await axios.get(`${N26.apiUrl}${url}?${stringify(params)}`, { 
-            headers: { "Authorization": `Bearer ${this.currentToken.accessToken}` }, 
+            headers: { "Authorization": `Bearer ${this.currentToken.access_token}` },
             ...opts 
         });
         return response.data;
