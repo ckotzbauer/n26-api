@@ -44,7 +44,7 @@ export class N26 {
             headers: { "Authorization": `Bearer ${this.currentToken.access_token}` },
             ...opts 
         });
-        return response.data;
+        return response.data as T;
     }
 
     public async getBalance(): Promise<Balance> {
