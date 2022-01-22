@@ -9,7 +9,7 @@ on:
 
 jobs:
   release:
-    uses: ckotzbauer/actions-toolkit/.github/workflows/toolkit-release-nodejs.yml@0.4.0
+    uses: ckotzbauer/actions-toolkit/.github/workflows/toolkit-release-nodejs.yml@0.5.0
     with:
       node-version: 16
       version: ${{ github.event.inputs.version }}
