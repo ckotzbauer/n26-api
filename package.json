@@ -22,7 +22,7 @@
   "license": "MIT",
   "repository": "https://github.com/ckotzbauer/n26-api",
   "dependencies": {
-    "axios": "0.25.0"
+    "axios": "0.26.0"
   },
   "devDependencies": {
     "@types/node": "16.11.24",
